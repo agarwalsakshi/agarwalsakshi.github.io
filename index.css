@@ -1,0 +1,88 @@
+.myHeader {
+    position: fixed;
+   width: 100%;
+    display: block;
+    height: 100px;
+    top: 0px; 
+    z-index: 1;
+    margin: 0px auto 0px auto;
+    color: white;
+    background-color: #444;
+}
+
+.myHeader img {
+float: left;
+    padding-left: 40px;
+}
+.myHeader ul {
+  list-style: inline;
+  text-align: right;
+  position:relative;
+  padding: 0;
+  margin: 0;
+}
+.myHeader li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.5em;
+    padding:10px;
+    padding-right: 30px;
+    padding-top: 25px;
+    display: block;
+}
+ 
+.myHeader a {
+  text-decoration: none;
+  color: #fff;
+  
+}
+ 
+.myHeader a:hover {
+  color: black;
+}
+ 
+.myHeader a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+@media screen and (min-width: 600px) {
+  .myHeader li {
+    line-height: 50px;
+    font-size: 1.4em;
+    display: inline-block;
+    margin-right: -4px;
+    position:relative;
+  }
+#nav {
+    line-height:100%;
+    background-color:#eeeeee;
+    height:650px;
+    width:200px;
+    float:left;
+    padding:10px; 
+    padding-top: 30px;
+}
+#rightnav {
+line-height:100%;
+background-color:#eeeeee;
+height:650px;
+width:250px;
+float: right;
+padding:10px;
+padding-top: 30px;
+}
+#section {
+    width:350px;
+    padding:10px;
+    padding-top: 30px;
+float: left;
+ 
+}
+#footer {
+    background-color: #444;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px; 
+}
