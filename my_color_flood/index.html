@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="my_game_flood.css" rel="stylesheet" type="text/css">
+  <title> Color Flood</title>
+</head>
+<body>
+  <h1 style= "color:blue">COLOR FLOOD</h1>
+<!--<div class= "section">
+  <p>ress the circle buttons to flood fill the image\n"+
+           "with the colour from the top left corner. Fill the\n"+
+           "entire image with the same colour in twenty-five or\n"+
+           "fewer flood fills.
+         </p>
+       </div>-->
+       <div class="section">
+  <ul>
+    <br/>
+    <li><strong><a href="../index.html">HOME</a></strong></li>
+    <br/>
+      <li><strong><a href= "../2048/index.html">2048</a></strong></li>
+      <br/>
+      <li><strong><a href="../2548/index.html">2548</a></strong></li>
+      <br/>
+    </ul>
+  </div>
+
+<table>
+  <tr>
+    <td>
+      <table id="game-table">
+        <tbody id="game-table-tbody">
+        </tbody>
+      </table>
+    </td>
+    
+  </tr>
+</table>
+
+              <div>
+                <div  id = "button" class="button blue" onclick="flood ('blue')"></div>
+                <div  id = "button" class="button red" onclick="flood ('red')"></div>
+                <div  id = "button" class="button green" onclick="flood ('green')"></div>
+                <div  id = "button" class="button yellow" onclick="flood ('yellow')"></div>
+                <div  id = "button" class="button pink" onclick="flood ('pink')"></div>
+                <div  id = "button" class="button purple" onclick="flood ('purple')"></div>
+              </div>
+              <br/>
+              Turn: <span id="moves"></span>/<span id="max-moves"></span>
+          
+              <br/><br/>
+            <input class = "restart-button" type="submit" value="New game" onclick="new_game ()">
+<script src="my_game_flood.js"></script><br/>
+<b>HELP:</b><br/>
+<p>Select colors from given six colors and color will start filling from the top left corner. Fill the entire image with the same colour in twenty-two or fewer flood fills.</p>
+</body>
+</html>

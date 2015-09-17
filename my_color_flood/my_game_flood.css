@@ -1,0 +1,91 @@
+html, body {
+  margin-left: 12px;
+  padding: 0;
+  background: white;
+  color: "violet";
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  font-size: 18px; }
+
+body {
+  margin: 10px 0; }
+p {
+  margin-top: 0;
+  margin-bottom: 10px;
+  line-height: 1.65; }
+
+a {
+  color: "violet";
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer; }
+
+strong.important {
+  text-transform: uppercase; }
+
+.piece {
+    width: 50px;
+    height: 50px;
+    border:0px;
+}
+.button {
+
+    border: 1px solid black;
+    cursor: pointer;
+    display: inline-block;
+    height: 45px;
+    width: 85px;
+    margin-left: 18px;
+    }
+
+.red {
+background-color: red;
+}
+.yellow {
+background-color: yellow;
+}
+.green {
+background-color: #0F0;
+}
+.blue {
+background-color: blue;
+}
+.purple {
+background-color: purple;
+}
+.pink {
+background-color: fuchsia;
+}
+#game-table {
+    float : left;
+    margin:10px;
+    border: 5px;
+    padding: 10px;
+    border-spacing:0px;
+}
+.section
+{
+  color: "violet";
+  font-weight: bold;
+  text-decoration: underline;
+  cursor: pointer;
+  float: right;
+    margin-right: 50px;
+    top: 0px;
+    font-family: arial;
+    font-size: 20px;
+}
+#turn-counter {
+    font-family: sans-serif;
+}
+.restart-button {
+  display: inline-block;
+  background: red;
+  border-radius: 8px;
+  padding: 0 20px;
+  color: white;
+  font-size: 15px;
+  height: 43px;
+  line-height: 40px;
+  display: block;
+  text-align: center;
+  margin-bottom: 25px; }
